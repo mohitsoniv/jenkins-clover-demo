@@ -73,7 +73,7 @@
 						<id>post-unit-test</id>
 						<phase>test</phase>
 						<goals>
-							<goal>report</goal>
+							<goal>clover</goal>
 						</goals>
 						
 					</execution>
