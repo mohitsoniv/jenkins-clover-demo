@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
  * Created by 
  * Sample junit test code to integrate by
  */
+@Ignore
 public class JenkinsDemoTest
 {
     private static String Base_Url = "https://www.facebook.com";
