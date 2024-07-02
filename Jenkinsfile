@@ -7,7 +7,7 @@ pipeline {
         
         stage('checkout'){
             steps{
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/vcjain/jenkins-clover-demo.git']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/mohitsoniv/jenkins-clover-demo.git']])
             }    
         }
         stage('Build'){
